@@ -1,11 +1,7 @@
 # AI-Text
 
-# Project Name
-
-Project Description
-
 ## Documentation
-
+- Web based application which uses GPT4 based AI to summarize artciles baseed on the link provided
 - **Source:** [YouTube Video](https://www.youtube.com/watch?v=vpvtZZi5ZWk&t=2221s)
 
 ## Technologies Used
@@ -16,7 +12,7 @@ Project Description
 
 ## Features
 
-- Displays a list of summarized articles (URLs).
+- Displays a list of link(url) used.
 - Displays the summary of articles.
 
 ## Getting Started
@@ -50,3 +46,6 @@ npm install
 ```bash
 npm start
 ```
+
+Working Version 
+![Combined Picture](https://github.com/Ravkeerat02/AI-Text/blob/main/ss/image.png)
