@@ -117,12 +117,13 @@
 
 /* tailwind.css */
 
-.dark {
+/* Example CSS classes for dark mode */
+.dark .bg-black {
   background-color: #000;
+}
+
+.dark .text-white {
   color: #fff;
 }
 
-.light {
-  background-color: #fff;
-  color: #000;
-}
+/* Add more dark mode styles as needed */
