@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { copy, linkIcon, loader, tick } from "../assets";
 import { useLazyGetSummaryQuery } from "../services/article";
 
@@ -104,7 +104,7 @@ const Demo = () => {
                   className="w-[40%] h-[40%] object-contain"
                 />
               </div>
-              <p className="flex-1 font-satoshi text-blue-700 font-medium text-sm truncate">
+              <p className="flex-1 font-Space Grotesk text-blue-700 font-medium text-sm truncate">
                 {item.url}
               </p>
             </div>
@@ -117,18 +117,18 @@ const Demo = () => {
         {isFetching ? (
           <img src={loader} alt="loader" className="w-20 h-20 object-contain" />
         ) : error ? (
-          <p className="font-inter font-bold text-black text-center">
-            Well, that wasn't supposed to happen...
+          <p className=" font-Space Grotesk font-inter font-bold text-black text-center">
+            Sorry for that . It shoudn't have happend
             <br />
-            <span className="font-satoshi font-normal text-gray-700">
+            <span className=" font-Space Grotesk font-normal text-gray-700">
               {error?.data?.error}
             </span>
           </p>
         ) : (
           article.summary && (
             <div className="flex flex-col gap-3">
-              <h2 className="font-satoshi font-bold text-gray-600 text-xl">
-                Article <span className="blue_gradient">Summary</span>
+              <h2 className="font- font-bold text-gray-600 text-xl">
+                <span>Article Summary</span>
               </h2>
               <div className="summary_box">
                 <p
